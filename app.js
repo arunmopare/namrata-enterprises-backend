@@ -180,7 +180,7 @@ app.post("/send", (req, res) => {
                          <li style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:28px;Margin-bottom:15px;margin-left:0;color:#333333;font-size:14px">Last Name: ${req.body.lastname}</li> 
                         </ul> 
                         <ul> 
-                         <li style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:28px;Margin-bottom:15px;margin-left:0;color:#333333;font-size:14px">Email:&nbsp;<a href=${req.body.emailid} target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:14px">arunmopare546@gmail.com</a></li> 
+                         <li style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:28px;Margin-bottom:15px;margin-left:0;color:#333333;font-size:14px">Email:&nbsp;<a href=${req.body.emailid} target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:14px">${req.body.emailid}</a></li> 
                         </ul> 
                         <ul> 
                          <li style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:28px;Margin-bottom:15px;margin-left:0;color:#333333;font-size:14px">Phone: ${req.body.mobile}</li> 
